@@ -34,6 +34,10 @@ bool isPrime(int n){
    }
 
    int main(){
-    allPrimes(50);
+    int a;
+    cout<<"Enter the number : ";
+    cin>>a;
+    cout<<"all prime number till "<<a<<" are - "<<endl;
+    allPrimes(a);
     return 0;
    }
