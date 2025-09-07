@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-
+// introduction to pointers
 int main(){
     //pointer just stores the address of other variables in themselves
     int a = 10;
@@ -13,7 +13,8 @@ int main(){
 
     cout<<&pi<<" = "<<ptr2<<endl;
 
-    float **pptr = &ptr2; //assigning the address of a pointer to other pointer for this we wil use two **
+    float **pptr = &ptr2; //assigning the address of a pointer to other pointer for this we wil use two  **
     cout<<&ptr2<<" = "<<pptr<<endl;
     return 0;
+
 }
