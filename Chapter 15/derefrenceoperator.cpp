@@ -8,7 +8,7 @@ int main(){
 
     int *ptr = &a;
     cout<<ptr<<endl;
-    cout<<*ptr<<endl; //dereferencing the pointer
+    cout<<*ptr<<endl; //dereferencing the pointer (updated on new machine)
 
     *ptr = 20; //modifying the value of var a with the help of pointer
     cout<<a<<endl;
